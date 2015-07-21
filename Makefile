@@ -6,4 +6,4 @@ all:
 	make -C /lib/modules/$(shell uname -r)/build M=$(shell pwd) modules
 
 clean:
-	rm *.ko *.o .*.o.* .*.ko.* .tmp_versions modules.order Module.symvers -fr
+	rm *.ko *.o .*.o.* .*.ko.* .tmp_versions modules.order Module.symvers alx.mod.c -fr
