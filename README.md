@@ -5,3 +5,7 @@ This repo contains source code of alx driver frome Linux kernel 3.10.84 that sti
 
 # Usage
 Just execute `make`, and you can get the `alx.ko` file.
+
+# Command Refs
+- `sudo ethtool eth0 | grep Wake`
+- `sudo ethtool -s eth0 wol g`
